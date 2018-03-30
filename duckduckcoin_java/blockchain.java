@@ -14,5 +14,11 @@ public class Duckchain {
 		String blockchainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
 		System.out.println(blockchainJson);
 	}
+	
+	/*  public interface  Liste(Block){
+        void enfiler(Block b);
+        boolean estVide();
+        int longueur();
+    }*/
 }
 
